@@ -1,0 +1,73 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+.gameProject{
+  margin: auto;
+  margin-top: 2rem;
+  background-color: black;
+  color:whitesmoke;
+  width: 30rem;
+  padding: 2rem;
+}
+
+.numberRange{
+  text-align: right;
+}
+
+button.tryAgain{
+  text-align: center;
+  padding: 0.3rem;
+  border: 1px solid white;
+  width:5rem;
+  background-color: aliceblue;
+  color: black;
+  font-size: 1.2rem;
+}
+
+.guess{
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.guessingOfNumber{
+  border: 1px solid white;
+  width: 5rem;
+  text-align: center;
+  margin: 0.5rem auto;
+  background-color: aliceblue;
+  color: black;
+}
+
+.typeInNumber{
+  width: 7rem;
+  height: 3rem;
+  padding: 1rem;
+  
+}
+
+.twoColumns{
+  text-align: left;
+  columns: 2;
+}
+
+.checkTheNumber{
+  margin-top: 1rem;
+  margin-left: 1rem;
+  text-align: center;
+  padding: 0.3rem;
+  border: 1px solid white;
+  width:5rem;
+  background-color: aliceblue;
+  color: black;
+}
+
+.whetherLowOrHighScore, .yourScore, .yourHighScore{
+  margin-top: 1rem;
+}
+
+/* .scoreReductionBasedOnTrial, .ratingOfScore{
+  display:none;
+} */
